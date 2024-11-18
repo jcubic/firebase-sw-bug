@@ -21,7 +21,8 @@ npm run dev
 First time there is an error:
 
 ```
-firebase_messaging.js?v=1da0b173:1020 Uncaught (in promise) AbortError: Failed to execute 'subscribe' on 'PushManager': Subscription failed - no active Service Worker
+firebase_messaging.js?v=1da0b173:1020 Uncaught (in promise) AbortError:
+Failed to execute 'subscribe' on 'PushManager': Subscription failed - no active Service Worker
     at getPushSubscription (firebase_messaging.js?v=1da0b173:1020:37)
     at async getTokenInternal (firebase_messaging.js?v=1da0b173:955:28)
 ```
